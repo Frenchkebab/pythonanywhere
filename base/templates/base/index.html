@@ -1,0 +1,105 @@
+{% extends 'base/navbar.html' %}
+
+{% block content %}
+
+{% load staticfiles %}
+
+
+{% comment %}
+<header>
+  <div class="carousel-inner" role="listbox">
+    <!-- Slide One - Set the background image for this slide in the line below -->
+    <div class="carousel-item active" style="background-image: url() ">
+      <div class="carousel-caption d-none d-md-block">
+        <h3>ISCA</h3>
+        <p>ISCA 는 뛰어난 전문성과 경험을 바탕으로<br>경영시스템 및 자동차산업 전반에 대한 다양한 교육 프로그램을 제공하고 있습니다. </p>
+      </div>
+    </div>
+  </div>
+</header>
+{% endcomment %}
+
+
+<header>
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner" role="listbox">
+      <!-- Slide One - Set the background image for this slide in the line below -->
+      <div class="carousel-item active" style="background-image: url('{% static "base/img/main2.jpg" %}')">
+        <div class="carousel-caption d-none d-md-block">
+          <h3>ISCA</h3>
+          <p>ISCA의 교육과정들은 기술적 접근, 핵심 부속서,<br>경영 시스템 표준 및 고객 맞춤 솔루션과 환경 및 안전보건에 중점을 두고 있습니다.</p>
+        </div>
+      </div>
+      <!-- Slide Two - Set the background image for this slide in the line below -->
+      <div class="carousel-item" style="background-image: url('{% static "base/img/handshake2.jpg" %}')">
+        <div class="carousel-caption d-none d-md-block">
+          <h3>ISCA</h3>
+          <p>ISCA 는 뛰어난 전문성과 경험을 바탕으로<br>경영시스템 및 자동차산업 전반에 대한 다양한 교육 프로그램을 제공하고 있습니다.</p>
+        </div>
+      </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</header>
+
+<!-- Page Content -->
+<div class="container"><br><br>
+  <div>
+    <h1 class="mainpage-title">ISCA에서는 아래와 같은 교육과정을 제공합니다</h1>
+    <hr>
+  </div>
+  <div class="row main-row">
+    <div class="col-md-3 mb-5">
+      <div>
+        <!-- <img class="card-img-top" src="{% static 'base/img/home-clip-01.png' %}" alt="Quality"> -->
+        <div class="card-body">
+          <h4 class="card-title">경영시스템 교육과정<br>(품질, 환경, 안전)</h4>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus
+            neque sequi doloribus.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 mb-5">
+      <div>
+        <!-- <img class="card-img-top" src="{% static 'base/img/home-clip-02.png' %}" alt="Energy & Environment Management"> -->
+        <div class="card-body">
+          <h4 class="card-title">내부심사원 과정</h4>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus
+            neque sequi doloribus totam ut praesentium aut.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-5">
+      <div>
+        <!-- <img class="card-img-top" src="{% static 'base/img/home-clip-03.png' %}" alt="Occupational Health"> -->
+        <div class="card-body">
+          <h4 class="card-title">자동차산업<br>경영시스템 교육과정</h4>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus
+            neque.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 mb-5">
+      <div>
+        <!-- <img class="card-img-top" src="{% static 'base/img/home-clip-04.png' %}" 
+          alt="Business Continuity Management System">-->
+        <div class="card-body">
+          <h4 class="card-title">핵심부속서 과정</h4>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus
+            neque.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+{% endblock content %}

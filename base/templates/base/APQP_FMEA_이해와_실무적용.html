@@ -1,0 +1,30 @@
+{% extends 'base/navbar.html' %}
+
+{% load staticfiles %}
+
+{% block content %}
+<div class="carousel-inner" role="listbox">
+    <!-- Slide One - Set the background image for this slide in the line below -->
+    <div class="carousel-item active" style="background-image: url('{% static 'base/img/our_promise_suit.jpg' %}'); height: 20vh;">
+      <div class="carousel-caption d-none d-md-block" style="bottom: 0; padding-bottom: 0;">
+      </div>
+    </div>
+  </div>
+<div class="row">
+  <div>
+    <h2>APQP & FMEA 이해와 실무 적용</h2>
+    <br><br>
+    <div class="specific-content">
+      <h3>교육대상</h3><br>
+        <p style="padding-left: 20px;">설계 및 공정개발 실무자/ 품질관리 담당자/ 생산 및 공정관리 실무자/ 직간접 부문 관리자 및 실무자/ 전 산업분야 제품 개발 및 생산, 공정관리 담당자/ IATF 16949 시스템 운영부서 실무자</p>
+      <br><br>
+      <h3>교육목표</h3><br>
+      <ul>
+        <li>사전 제품품질 기획(APQP) 프로세스를 개발업무에 적용할 수 있는 능력을 배양하여 실패비용을 최소화하고 양산선행 및 양산품질을 확보하는 예방적 접근체계를 이해</li>
+        <li>발생 가능한 각종 개발 실패의 위험을 선제적으로 예측하고 대응하는 D-FMEA 및 P-FMEA의 전개 및 실행 실무 지식을 습득</li>
+        <li>잠재적 고장형태 및 고장영향의 체계적인 전개와 위험 우선순위의 산정능력 제고 및 위험도 재평가 등에 대한 실전적용 능력 배양</li>
+      </ul>
+    </div>
+  </div>
+</div>
+{% endblock content %}

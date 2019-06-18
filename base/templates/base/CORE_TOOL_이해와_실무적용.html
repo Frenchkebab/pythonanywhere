@@ -1,0 +1,29 @@
+{% extends 'base/navbar.html' %}
+
+{% load staticfiles %}
+
+{% block content %}
+<div class="carousel-inner" role="listbox">
+    <!-- Slide One - Set the background image for this slide in the line below -->
+    <div class="carousel-item active" style="background-image: url('{% static 'base/img/our_promise_suit.jpg' %}'); height: 20vh;">
+      <div class="carousel-caption d-none d-md-block" style="bottom: 0; padding-bottom: 0;">
+      </div>
+    </div>
+  </div>
+<div class="row">
+  <div>
+    <h2>CORE TOOL(핵심 부속서) 이해와 실무 적용</h2>
+    <br><br>
+    <div class="specific-content">
+      <h3>교육대상</h3><br>
+        <p style="padding-left: 20px;">품질부서의 IATF 16949 인증추진 실무자 / 신제품 또는 신공정 설계 및 개발담당 실무자 / 공정기술자 및 공정품질관리요원/ 품질보증 담당자 / 기타 실무자</p>
+      <br><br>
+      <h3>교육목표</h3><br>
+      <ul>
+        <li>Core Tool(APQP & CP, PPAP, FMEA, MSA 및 SPC 등) 부속서의 현업 적용을 극대화하기 위한 전문가 양성 </li>
+        <li>Core Tool을 활용하여 조직의 품질경영시스템을 효과적으로 개선할 수 있는 실무자 양성</li>
+      </ul>
+    </div>
+  </div>
+</div>
+{% endblock content %}

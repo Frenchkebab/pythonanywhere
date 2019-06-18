@@ -1,0 +1,30 @@
+{% extends 'base/navbar.html' %}
+
+{% load staticfiles %}
+
+{% block content %}
+<div class="carousel-inner" role="listbox">
+    <!-- Slide One - Set the background image for this slide in the line below -->
+    <div class="carousel-item active" style="background-image: url('{% static 'base/img/our_promise_suit.jpg' %}'); height: 20vh;">
+      <div class="carousel-caption d-none d-md-block" style="bottom: 0; padding-bottom: 0;">
+      </div>
+    </div>
+  </div>
+<div class="row">
+  <div>
+    <h2>IATF 16949:2016 요구사항 이해와 적용</h2>
+    <br><br>
+    <div class="specific-content">
+      <h3>교육대상</h3><br>
+        <p style="padding-left: 20px;">품질시스템 인증 추진실무자, 시스템 운영담당자, 각 부문 실무자</p>
+      <br><br>
+      <h3>교육목표</h3><br>
+      <ul>
+        <li>IATF 16949:2016 표준요구사항의 의도와 배경 및 핵심개념을 이해</li>
+        <li>조직의 경영 환경과 경영시스템의 상관성을 이해</li>
+        <li>IATF표준 요구사항에 대한 실무 적용능력 배양</li>
+      </ul>
+    </div>
+  </div>
+</div>
+{% endblock content %}

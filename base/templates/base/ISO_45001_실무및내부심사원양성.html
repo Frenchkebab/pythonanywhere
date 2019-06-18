@@ -1,0 +1,32 @@
+{% extends 'base/navbar.html' %}
+
+{% load staticfiles %}
+
+{% block content %}
+<div class="carousel-inner" role="listbox">
+    <!-- Slide One - Set the background image for this slide in the line below -->
+    <div class="carousel-item active" style="background-image: url('{% static 'base/img/our_promise_suit.jpg' %}'); height: 20vh;">
+      <div class="carousel-caption d-none d-md-block" style="bottom: 0; padding-bottom: 0;">
+      </div>
+    </div>
+  </div>
+<div class="row">
+  <div>
+    <h2>안전보건경영시스템(ISO 45001) 실무 및 내부심사원 양성</h2>
+    <br><br>
+    <div class="specific-content">
+      <h3>교육대상</h3><br>
+        <p style="padding-left: 20px;">안전보건경영시스템 심사원취득 희망자, 안전보건 실무전문가, 내부심사원의 자질향상</p>
+      <br><br>
+      <h3>교육목표</h3><br>
+      <ul>
+        <li>안전보건경영시스템) 인증 심사를 수행하기 위한 인증 심사원 양성(자격인증기관 등록 인증심사원 자격취득)</li>
+        <li>안전보건경영시스템 관리 기법 및 기술의 이해 </li>
+        <li>안전보건경영시스템 인증 심사를 수행할 수 있는 실무능력 배양</li>
+        <li>사내 안전보건 경영시스템 구축 및 운영 전문가 양성, 내부심사원 자질향상</li>
+        <li>안전보건경영시스템 컨설턴트 양성 및 기존 심사원의 인증심사 분야확대</li>
+      </ul>
+    </div>
+  </div>
+</div>
+{% endblock content %}

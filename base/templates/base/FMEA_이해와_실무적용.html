@@ -1,0 +1,31 @@
+{% extends 'base/navbar.html' %}
+
+{% load staticfiles %}
+
+{% block content %}
+<div class="carousel-inner" role="listbox">
+    <!-- Slide One - Set the background image for this slide in the line below -->
+    <div class="carousel-item active" style="background-image: url('{% static 'base/img/our_promise_suit.jpg' %}'); height: 20vh;">
+      <div class="carousel-caption d-none d-md-block" style="bottom: 0; padding-bottom: 0;">
+      </div>
+    </div>
+  </div>
+<div class="row">
+  <div>
+    <h2>FMEA(잠재적 고장형태 및 영향분석) 이해와 실무 적용</h2>
+    <br><br>
+    <div class="specific-content">
+      <h3>교육대상</h3><br>
+      <p style="padding-left: 20px;">제품설계 및 공정개발 실무자/ 품질관리 담당자/ 생산 및 공정관리 실무자/ 전 산업분야 제품 개발 및 생산, 공정관리 담당자/ IATF 16949 시스템 운영부서 실무자
+      </p>
+      <br><br>
+      <h3>교육목표</h3><br>
+      <ul>
+        <li>발생 가능한 각종 개발 실패의 위험을 선제적으로 예측하고 대응하는 D-FMEA 및 P-FMEA의 전개 및 실행 실무 지식을 습득</li>
+        <li>잠재적 고장형태 및 고장영향의 체계적인 전개와 위험 우선순위의 산정능력 제고 및 위험도 재평가 등에 대한 실전적용 능력 배양</li>
+        <li>AIAG의 FMEA 제 4판에 의한 현업 실무적용 방안과 개선조치 사항에 따른 진행관리 방안 습득</li>
+      </ul>
+    </div>
+  </div>
+</div>
+{% endblock content %}

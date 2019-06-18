@@ -1,0 +1,30 @@
+{% extends 'base/navbar.html' %}
+
+{% load staticfiles %}
+
+{% block content %}
+<div class="carousel-inner" role="listbox">
+    <!-- Slide One - Set the background image for this slide in the line below -->
+    <div class="carousel-item active" style="background-image: url('{% static 'base/img/our_promise_suit.jpg' %}'); height: 20vh;">
+      <div class="carousel-caption d-none d-md-block" style="bottom: 0; padding-bottom: 0;">
+      </div>
+    </div>
+  </div>
+<div class="row">
+  <div>
+    <h2>ISO 45001 : 2018 제정 시스템 전환 실무</h2>
+    <br><br>
+    <div class="specific-content">
+      <h3>교육대상</h3><br>
+        <p style="padding-left: 20px;">안전보건경영시스템 운영 실무자, 각부서 안전보건경영시스템 인증추진자, 안전관련 책임, 전보, 신입직원, 기타 관련자</p>
+      <br><br>
+      <h3>교육목표</h3><br>
+      <ul>
+        <li>ISO 45001:2018 안전경영시스템 전환 문서화 및 실무 추진 능력 습득</li>
+        <li>프로세스 접근 방법/리스크 경영 이해 및 안전경영시스템 문서 작성(매뉴얼, 절차서, 지침서 등) 능력 향상 </li>
+        <li> ISO 45001:2018 변경사항에 대한 문서화 사례 연구를 통한 실무 능력 배양과 효율적인 시스템 운영 방법 습득</li>
+      </ul>
+    </div>
+  </div>
+</div>
+{% endblock content %}

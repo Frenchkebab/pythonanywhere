@@ -1,0 +1,29 @@
+{% extends 'base/navbar.html' %}
+
+{% load staticfiles %}
+
+{% block content %}
+<div class="carousel-inner" role="listbox">
+    <!-- Slide One - Set the background image for this slide in the line below -->
+    <div class="carousel-item active" style="background-image: url('{% static 'base/img/our_promise_suit.jpg' %}'); height: 20vh;">
+      <div class="carousel-caption d-none d-md-block" style="bottom: 0; padding-bottom: 0;">
+      </div>
+    </div>
+  </div>
+<div class="row">
+  <div>
+    <h2>MSA(측정시스템 분석) 이해와 실무 적용</h2>
+    <br><br>
+    <div class="specific-content">
+      <h3>교육대상</h3><br>품질관련 담당 및 부서장, 공정관리 담당자, R&D분야 담당자, 생산관리 담당자, 검사 담당자</p>
+      <br><br>
+      <h3>교육목표</h3><br>
+      <ul>
+        <li>제조 및 비제조 분야의 측정시스템 분석을 통한 현 수준파악 및 해결방안 습득</li>
+        <li>Data(계수/계량)에 대한 명확한 이해를 바탕으로 Data 처리능력 향상</li>
+        <li>측정시스템의 체계적인 이론교육과 현장 Data를 활용한 실습을 바탕으로 자사의 측정시스템에 대한 평가수행능력 향상</li>
+      </ul>
+    </div>
+  </div>
+</div>
+{% endblock content %}

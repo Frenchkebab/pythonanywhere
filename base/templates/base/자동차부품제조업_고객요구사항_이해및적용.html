@@ -1,0 +1,30 @@
+{% extends 'base/navbar.html' %}
+
+{% load staticfiles %}
+
+{% block content %}
+<div class="carousel-inner" role="listbox">
+    <!-- Slide One - Set the background image for this slide in the line below -->
+    <div class="carousel-item active" style="background-image: url('{% static 'base/img/our_promise_suit.jpg' %}'); height: 20vh;">
+      <div class="carousel-caption d-none d-md-block" style="bottom: 0; padding-bottom: 0;">
+      </div>
+    </div>
+  </div>
+<div class="row">
+  <div>
+    <h2>자동차부품제조업 고객요구사항(CSR) 이해 및 적용</h2>
+    <br><br>
+    <div class="specific-content">
+      <h3>교육대상</h3><br>
+        <p style="padding-left: 20px;">자동차부품제조업체 품질, 제조, 영업 책임 혹은 관련 담당자</p>
+      <br><br>
+      <h3>교육목표</h3><br>
+      <ul>
+        <li>주요 국외 완성차 메이커를 증심으로한 고객지정 요구사항(CSR) 이해</li>
+        <li>고객지정 요구사항(CSR)의 공통점 및 차이점 이해</li>
+        <li>고객지정 요구사항(CSR)의 적용방법 습득</li>
+      </ul>
+    </div>
+  </div>
+</div>
+{% endblock content %}

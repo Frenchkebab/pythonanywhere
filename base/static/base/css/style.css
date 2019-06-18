@@ -1,0 +1,66 @@
+.fixed-top {
+    position: relative;
+}
+.foot {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.carousel-item {
+    height: 92vh;
+}
+
+.dropdown:hover .dropdown-menu {
+display: block;
+margin-top: 0;
+}
+
+.bg-orange {
+    background-color: #f26824;
+}
+
+.py-5 {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+#logo {
+    height: 35px;
+    width: 100px;
+    display: block;
+}
+
+.card-title {
+    color: #ff971e;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+h1.mainpage-title {
+    color: #eb5128;
+}
+
+div.row {
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+}
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    color: white;
+}
+body {
+    padding-top: 0;
+}
+div.row {
+    margin-top: 40px;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}

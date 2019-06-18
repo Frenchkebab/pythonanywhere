@@ -1,0 +1,30 @@
+{% extends 'base/navbar.html' %}
+
+{% load staticfiles %}
+
+{% block content %}
+<div class="carousel-inner" role="listbox">
+    <!-- Slide One - Set the background image for this slide in the line below -->
+    <div class="carousel-item active" style="background-image: url('{% static 'base/img/our_promise_suit.jpg' %}'); height: 20vh;">
+      <div class="carousel-caption d-none d-md-block" style="bottom: 0; padding-bottom: 0;">
+      </div>
+    </div>
+  </div>
+<div class="row">
+  <div>
+    <h2>ISO 9001 요구사항 이해와 적용</h2>
+    <br><br>
+    <div class="specific-content">
+      <h3>교육대상</h3><br>
+        <p style="padding-left: 20px;">조직의 품질경영시스템 구축 및 실행 주관 부서의 실무자 및 책임자, ISO 9001 인증 주관 부서의 실무자 및 책임자, 각 부서 ISO 9001 인증/실행 담당자 및 책임자</p>
+      <br><br>
+      <h3>교육목표</h3><br>
+      <ul>
+        <li>ISO 9001 품질경영시스템 기본개념 이해</li>
+        <li>ISO 9001 품질경영시스템 요구사항별 주요 이행사항 및 효과적 적용방안 숙지</li>
+        <li>ISO 9001 품질경영시스템 심사 시 발견되는 부적합 사례 연구를 통한 시스템 운영능력 제고</li>
+      </ul>
+    </div>
+  </div>
+</div>
+{% endblock content %}

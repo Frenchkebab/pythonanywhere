@@ -1,0 +1,35 @@
+{% extends 'base/navbar.html' %}
+{% load staticfiles %}
+
+{% block content %}
+<!-- Intro Content -->
+<header>
+  <div class="carousel-inner" role="listbox">
+    <!-- Slide One - Set the background image for this slide in the line below -->
+    <div class="carousel-item active" style="background-image: url('{% static 'base/img/our_promise_suit.jpg' %}'); height: 40vh;">
+      <div class="carousel-caption d-none d-md-block" style="bottom: 0; padding-bottom: 0;">
+        <p class="display-3"
+          style="font-size: 30px; font-weight: 500; text-shadow: -1px 0 black, 0 1px black, 1px 0 rgb(235, 231, 231), 0 -1px black;">
+          회사소개</p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="row">
+  <div class="col-lg-6">
+    <img class="img-fluid rounded mb-4" src="{% static 'base/img/logo.png' %}" alt="">
+      </div>
+      <div class="col-lg-6">
+        <h2>ISCA</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, magni, aperiam vitae illum voluptatum aut sequi impedit non velit ab ea pariatur sint quidem corporis eveniet. Odit, temporibus reprehenderit dolorum!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione ex ea praesentium quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis?</p>
+      </div>
+    </div>
+    <!-- /.row -->
+
+
+
+{% endblock content %}
+  

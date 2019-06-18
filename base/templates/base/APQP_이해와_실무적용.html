@@ -1,0 +1,30 @@
+{% extends 'base/navbar.html' %}
+
+{% load staticfiles %}
+
+{% block content %}
+<div class="carousel-inner" role="listbox">
+    <!-- Slide One - Set the background image for this slide in the line below -->
+    <div class="carousel-item active" style="background-image: url('{% static 'base/img/our_promise_suit.jpg' %}'); height: 20vh;">
+      <div class="carousel-caption d-none d-md-block" style="bottom: 0; padding-bottom: 0;">
+      </div>
+    </div>
+  </div>
+<div class="row">
+  <div>
+    <h2>APQP(사전제품 품질계획) 이해와 실무 적용</h2>
+    <br><br>
+    <div class="specific-content">
+      <h3>교육대상</h3><br>
+        <p style="padding-left: 20px;">설계 및 개발 담당자/ 품질관리 담당 및 책임자/ 생산 및 공정관리부서 실무자/ IATF 16949 시스템 운영부서 실무자</p>
+      <br><br>
+      <h3>교육목표</h3><br>
+      <ul>
+        <li>사전 제품품질 기획(APQP)의 목적과 필요성 및 관련 요건을 이해하고, APQP 프로세스를 수행할 수 있는 실행능력 배양</li>
+        <li>실패비용을 최소화하고 양산선행 및 양산품질을 확보하는 예방적 접근체계를 이해하고 개발업무에 적용능력 배양</li>
+        <li>관리계획서(CP) 개발 및 활용 방법의 이해와 작성 능력 배양</li>
+      </ul>
+    </div>
+  </div>
+</div>
+{% endblock content %}

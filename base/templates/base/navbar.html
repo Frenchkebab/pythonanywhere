@@ -1,0 +1,82 @@
+{% extends 'base/base_generic.html' %}
+
+{% block link %}
+{% load staticfiles %}
+<!-- Bootstrap core CSS -->
+<link href="{% static 'base/vendor/bootstrap/css/bootstrap.css' %}" rel="stylesheet">
+
+<!-- Bootstrap core JavaScript -->
+<script src="{% static 'base/vendor/jquery/jquery.min.js' %}"></script>
+<script src="{% static 'base/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+
+<!-- Custom styles for this template -->
+<link href="{% static 'base/css/modern-business.css' %}" rel="stylesheet">
+<link rel="stylesheet" href="{% static 'base/css/style.css' %}">
+{% endblock link %}
+
+
+{% block body %}
+<!-- Navigation -->
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-orange">
+  <div class="container">
+    <a class="navbar-brand" href="{% url 'index' %}"><img src="{% static 'base/img/loogo.png' %}" id="logo"></a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+      data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'about_isca' %}">회사소개</a>
+        </li>
+
+
+        <!-- <li class="nav-item dropdown">
+          <a href="경영시스템-인증.html" class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" aria-haspopup="true"
+            aria-expanded="false">
+            교육과정
+          </a>
+          <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdownPortfolio">
+            <a class="dropdown-item" href="#">품질시스템</a>
+            <a class="dropdown-item" href="portfolio-2-col.html">환경시스템</a>
+            <a class="dropdown-item" href="portfolio-3-col.html">안전보건<br>경영시스템</a>
+            <a class="dropdown-item" href="portfolio-4-col.html">자동차 산업<br>경영시스템<br>Automotive</a>
+            <a class="dropdown-item" href="portfolio-item.html">핵심부속서<br>(CORE TOOL)</a>
+          </div>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link" href="{% url 'schedule_2019' %}">교육 과정</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">문의</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- content(본문내용) -->
+{% block content %}
+{% endblock content %}
+
+
+{% block footer %}
+<!-- Footer -->
+<footer class="footer bg-orange">
+  <div class="container">
+    <p class="m-0 text-center text-white">
+      ISCA<br>
+      최은식<br>
+      주소 : 서울 구로구<br>
+    </p>
+  </div>
+</footer>
+{% endblock footer %}
+  
+
+
+{% endblock body %}

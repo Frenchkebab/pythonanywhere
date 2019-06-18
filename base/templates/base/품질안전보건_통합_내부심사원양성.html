@@ -1,0 +1,31 @@
+{% extends 'base/navbar.html' %}
+
+{% load staticfiles %}
+
+{% block content %}
+<div class="carousel-inner" role="listbox">
+    <!-- Slide One - Set the background image for this slide in the line below -->
+    <div class="carousel-item active" style="background-image: url('{% static 'base/img/our_promise_suit.jpg' %}'); height: 20vh;">
+      <div class="carousel-caption d-none d-md-block" style="bottom: 0; padding-bottom: 0;">
+      </div>
+    </div>
+  </div>
+<div class="row">
+  <div>
+    <h2>품질·안전보건(IATF 16949 & 45001) 통합 내부심사원 양성</h2>
+    <br><br>
+    <div class="specific-content">
+      <h3>교육대상</h3><br>
+        <p style="padding-left: 20px;">통합경영시스템 운영실무자 / 신규 통합 내부심사원 양성 대상자 / 각 부서 통합 시스템 운영 실무자 및 책임자 / 인증추진 담당자</p>
+      <br><br>
+      <h3>교육목표</h3><br>
+      <ul>
+        <li>IATF 16949 & ISO 45001 통합경영시스템의 개념 이해</li>
+        <li>통합경영시스템의 효율적인 진단 및 운영능력을 배양하여 통합내부심사원의 자질 향상</li>
+        <li>자사에 적합한 통합시스템의 지속적 개선유지방안 습득</li>
+        <li>통합내부 심사수행에 필요한 절차, 방법 및 심사수행 기법등을 이해</li>
+      </ul>
+    </div>
+  </div>
+</div>
+{% endblock content %}

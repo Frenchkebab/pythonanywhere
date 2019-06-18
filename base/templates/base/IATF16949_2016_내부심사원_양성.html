@@ -1,0 +1,31 @@
+{% extends 'base/navbar.html' %}
+
+{% load staticfiles %}
+
+{% block content %}
+<div class="carousel-inner" role="listbox">
+    <!-- Slide One - Set the background image for this slide in the line below -->
+    <div class="carousel-item active" style="background-image: url('{% static 'base/img/our_promise_suit.jpg' %}'); height: 20vh;">
+      <div class="carousel-caption d-none d-md-block" style="bottom: 0; padding-bottom: 0;">
+      </div>
+    </div>
+  </div>
+<div class="row">
+  <div>
+    <h2>IATF 16949:2016 내부심사원 양성</h2>
+    <br><br>
+    <div class="specific-content">
+      <h3>교육대상</h3><br>
+        <p style="padding-left: 20px;">IATF 16949 인증운영 실무자 및 책임자, 내부심사원 양성 대상자</p>
+      <br><br>
+      <h3>교육목표</h3><br>
+      <ul>
+        <li>경영시스템의 하모니(Harmony) 구조와 특징 및 IATF 규격의 핵심개념 이해</li>
+        <li>IATF 16949 내부심사 프로세스 전반의 이해 및 실무 적용</li>
+        <li>자동차산업 특성의 프로세스 기반 심사 기법 및 심사 Skill 숙지</li>
+        <li>시스템 심사, 제조공정 심사 및 제품심사 기법의 이해와 실무 적용</li>
+      </ul>
+    </div>
+  </div>
+</div>
+{% endblock content %}

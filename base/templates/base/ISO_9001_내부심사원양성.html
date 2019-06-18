@@ -1,0 +1,31 @@
+{% extends 'base/navbar.html' %}
+
+{% load staticfiles %}
+
+{% block content %}
+<div class="carousel-inner" role="listbox">
+    <!-- Slide One - Set the background image for this slide in the line below -->
+    <div class="carousel-item active" style="background-image: url('{% static 'base/img/our_promise_suit.jpg' %}'); height: 20vh;">
+      <div class="carousel-caption d-none d-md-block" style="bottom: 0; padding-bottom: 0;">
+      </div>
+    </div>
+  </div>
+<div class="row">
+  <div>
+    <h2>ISO 9001 내부심사원 양성</h2>
+    <br><br>
+    <div>
+      <h3>교육대상</h3><br>
+        <p style="padding-left: 20px;">내부심사원/ ISO 담당자 및 실무자/ 컨설턴트/ 인증심사원 등록(자격취득) 희망자</p>
+      <br><br>
+      <h3>교육목표</h3><br>
+      <ul>
+        <li>ISO 9001 품질경영시스템 인증심사를 수행하기 위한 인증심사원 양성(ISO 9001 인증심사원 자격 취득)</li>
+        <li>품질수준을 한 단계 업그레이드 하기 위한 협력업체 평가요원(심사원) 양성 </li>
+        <li>사내 품질경영시스템 구축 및 운영 전문가 양성, 내부심사원 양성 및 심사원 자질 향상 </li>
+        <li>ISO 9001 품질경영시스템 컨설턴트 양성 및 관련분야 전문지식 함양, 기존 심사원의 인증심사 분야 확대 및 자질향상</li>
+      </ul>
+    </div>
+  </div>
+</div>
+{% endblock content %}
